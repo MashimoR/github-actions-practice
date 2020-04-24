@@ -1,5 +1,5 @@
 # Workflow名（好きな名前でOK）
-name: カレーを"料理"(つく)る
+name: Sample
 
 # 実行するタイミング (github に push があったタイミングで実行する)
 on: push
@@ -8,7 +8,7 @@ on: push
 jobs:
 
   # 実行する処理の名前
-  zairyo_kau:
+  sample:
 
     # 実行する環境（ macOS の 10.15 を利用 ）
     runs-on: macos-10.15
@@ -17,8 +17,5 @@ jobs:
     steps:
 
       # Hello, World! を表示する
-      - name: go super market
-        run: echo Hello, World!
-
-      - name: syokuzai kau
+      - name: Sample
         run: echo Hello, World!
