@@ -1,5 +1,5 @@
 # Workflow名（好きな名前でOK）
-name: Sample
+name: Hello
 
 # 実行するタイミング (github に push があったタイミングで実行する)
 on: push
